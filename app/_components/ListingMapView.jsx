@@ -43,7 +43,8 @@ const ListingMapView = ({ type }) => {
   };
 
   const handleSearch = async () => {
-    const searchTerm = searchedAddress?.value?.structured_formatting?.main_text;
+    const searchTerm =
+      searchedAddress?.value?.structured_formatting?.main_text || "";
 
     let query = supabase
       .from("listing")
