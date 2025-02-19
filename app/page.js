@@ -24,7 +24,9 @@ export default function Home() {
       {isSignedIn ? (
         <ListingMapView type="Sell" />
       ) : (
-        <p>Redirecting to Sign In...</p>
+        <div className="flex justify-center items-center h-screen">
+          <p>Redirecting to Sign In...</p>
+        </div>
       )}
     </div>
   );
