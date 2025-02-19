@@ -7,7 +7,7 @@ export default function Page() {
         <section className="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6">
           <img
             alt="landing"
-            src="https://img.freepik.com/free-photo/interior-kitchen-area-modern-office-with-long-wooden-table-chairs_181624-17912.jpg?t=st=1736843727~exp=1736847327~hmac=19fdd94e46e5725705d21b7510fb0c5fd26da4f082b53ddd4643fba29ac42789&w=1800"
+            src="/signin_bg.png"
             className="absolute inset-0 h-full w-full object-cover opacity-80"
           />
 
